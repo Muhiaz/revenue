@@ -119,7 +119,7 @@
                     <div>
                     <img src="img/boda1_2.jpg">
                     <p class="service-header">Boda boda</p>
-                    <p class="service-content">We offer moving NM forward services to our clients to easen the staffing process.</p>
+                    <p class="service-content">We offer moving NM forward services to our clients to easen the tax collection.</p>
                     <button class="button">More</button>
                 </div>
                 </div>
@@ -127,7 +127,7 @@
                     <div>
                     <img src="img/161026103649-20160929-155221-full-169.jpg">
                     <p class="service-header">Matatu</p>
-                    <p class="service-content">We offer moving NM forward services to our clients to easen the staffing process.</p>
+                    <p class="service-content">We offer moving NM forward services to our clients to easen the tax collection.</p>
                     <button class="button">More</button>
                 </div>
                 </div>
@@ -135,7 +135,7 @@
                     <div>
                     <img src="img/images.jpeg">
                     <p class="service-header">Businesses</p>
-                    <p class="service-content">We offer moving NM forward services to our clients to easen the staffing process.</p>
+                    <p class="service-content">We offer moving NM forward services to our clients to easen the tax collection.</p>
                     <button class="button">More</button>
                 </div>
                 </div>
@@ -145,7 +145,7 @@
                     <div>
                     <img src="img/download (1).jpeg">
                     <p class="service-header">Taxis</p>
-                    <p class="service-content">We offer moving NM forward services to our clients to easen the staffing process.</p>
+                    <p class="service-content">We offer moving NM forward services to our clients to easen the tax collection.</p>
                     <button class="button">More</button>
                 </div>
                 </div>
@@ -153,7 +153,7 @@
                     <div>
                     <img src="img/Blog_Accra_SVs_Header.jpg">
                     <p class="service-header">Vendors</p>
-                    <p class="service-content">We offer moving NM forward services to our clients to easen the staffing process.</p>
+                    <p class="service-content">We offer moving NM forward services to our clients to easen the tax collection.</p>
                     <button class="button">More</button>
                 </div>
                 </div>
@@ -161,7 +161,7 @@
                     <div>
                     <img src="img/depositphotos_8102241-stock-photo-successful-workers.jpg">
                     <p class="service-header">Parking</p>
-                    <p class="service-content">We offer moving NM forward services to our clients to easen the staffing process.</p>
+                    <p class="service-content">We offer moving NM forward services to our clients to easen the tax collection.</p>
                     <button class="button">More</button>
                 </div>
                 </div>
@@ -181,26 +181,26 @@
                 <div class="col-md-6">
                     <p class="small-title">Our value to our clients</p>
                     <h4 class="title">Our value to our clients</h4>
-                    <p class="service-content">We impact the value of all our users in various ways and focus on job seekers, employers and companies</p>
+                    <p class="service-content">We impact the value of all our users in various ways and focus on efficiency in tax collection</p>
                     <div class="subcategory">
                         <div class="subcategory-header" id="sub">
-                            <i class="la la-user"></i> <h4>How we assist Job seekers</h4> <i class="la la-caret-down"></i>
+                            <i class="la la-user"></i> <h4>How we assist small business</h4> <i class="la la-caret-down"></i>
                         </div>
                         <p class="service-content cont">We impact the value of all our users in various ways and focus on job seekers, employers and companies</p>
                     </div>
                     <div class="subcategory">
                         <div class="subcategory-header" id="sub-one">
-                        <i class="la la-users"></i> <h4>How we assist Employers</h4> <i class="la la-caret-down"></i></div>
+                        <i class="la la-users"></i> <h4>How we assist boda boda operators</h4> <i class="la la-caret-down"></i></div>
                         <p class="service-content cont-one">We impact the value of all our users in various ways and focus on job seekers, employers and companies</p>
                     </div>
                     <div class="subcategory">
                         <div class="subcategory-header" id="sub-two">
-                        <i class="la la-home"></i> <h4>How we assist Companies</h4> <i class="la la-caret-down"></i></div>
+                        <i class="la la-home"></i> <h4>How we assist taxis</h4> <i class="la la-caret-down"></i></div>
                         <p class="service-content cont-two">We impact the value of all our users in various ways and focus on job seekers, employers and companies</p>
                     </div>
                     <div class="subcategory">
                         <div class="subcategory-header" id="sub-three">
-                        <i class="la la-truck"></i> <h4>How we carry out Logistics</h4> <i class="la la-caret-down"></i></div>
+                        <i class="la la-truck"></i> <h4>How we assist matatu operators</h4> <i class="la la-caret-down"></i></div>
                         <p class="service-content cont-three">We impact the value of all our users in various ways and focus on job seekers, employers and companies</p>
                     </div>
                 </div>
@@ -217,7 +217,7 @@
                 <div class="col-md-6">
                     <p class="small-title">Contact us</p>
                     <h4 class="title">It is easy to contact us.</h4>
-                    <p class="service-content">Reach out to us as a jobseeker, employer, company for assistance to secure your dream job or dream employees and for other company management services.</p>
+                    <p class="service-content">Reach out to us as a revenue collector or payer.</p>
                     <div class="col-md-12">
                         <div class="col-md-6">
                             <div class="contact">

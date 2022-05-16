@@ -24,3 +24,5 @@ Route::get('forget-password', [App\Http\Controllers\Auth\ForgotPasswordControlle
 Route::post('forget-password', [App\Http\Controllers\Auth\ForgotPasswordController::class, 'submitForgetPasswordForm'])->name('forget.password.post'); 
 Route::get('reset-password/{token}', [App\Http\Controllers\Auth\ForgotPasswordController::class, 'showResetPasswordForm'])->name('reset.password.get');
 Route::post('reset-password', [App\Http\Controllers\Auth\ForgotPasswordController::class, 'submitResetPasswordForm'])->name('reset.password.post');
+Route::get('bodaboda',[App\Http\Controllers\HomeController::class,'bodaboda']);
+Route::get('addpayment',[App\Http\Controllers\HomeController::class,'addpayment']);

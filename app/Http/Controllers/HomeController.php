@@ -25,4 +25,11 @@ class HomeController extends Controller
     {
         return view('home');
     }
+
+    public function bodaboda(){
+        return view('bodaboda');
+    }
+    public function addpayment(){
+        return view('addpayment');
+    }
 }

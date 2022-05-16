@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="admin/style.css">
     <link rel="stylesheet" type="text/css" href="../1.3.0/css/line-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="">
@@ -68,144 +69,40 @@
                 </div>
             </div>
             <div class="content-body">
-                <div class="cards">
-                    <?php 
-                    if(\Auth::user()->role == 'User'){
-                        ?>
-                        <div class="single-card">
-                        <div class="verbage">
-                            <h3>201</h3>
-                            <span class="las la-user-friends"></span>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            <h3>My payments</h3> 
                         </div>
-                        My payments
-                    </div>
-                        <?php
-                    }
-                    else{
-                    ?>
-                    <div class="single-card">
-                        <div class="verbage">
-                            <h3>201</h3>
-                            <span class="las la-user-friends"></span>
+                        <div class="col-md-6">
+                           <a href="addpayment"><button class="btn btn-primary">Add payment</button></a> 
                         </div>
-                        Small businesses
                     </div>
-                    <div class="single-card">
-                        <div class="verbage">
-                            <h3>$ 100</h3>
-                            <span class="las la-calendar"></span>
-                        </div>
-                        Boda boda
-                    </div>
-                    <div class="single-card">
-                        <div class="verbage">
-                            <h3>$ 5400</h3>
-                            <span class="las la-shopping-cart"></span>
-                        </div>
-                        Taxi
-                    </div>
-                    <div class="single-card">
-                        <div class="verbage">
-                            <h3>54</h3>
-                            <span class="las la-users"></span>
-                        </div>
-                        Vendors
-                    </div>
-                <?php } ?>
                 </div>
+                <h3></h3>
                 <div class="flex-div">
                     <?php 
                     if(\Auth::user()->role == ''){
                         ?>
                          <div class="bookings">
-                        <table width="100%">
-                            <thead>
-                                <tr>
-                                    <td>
-                                        #Id
-                                    </td>
-                                    <td>
-                                        Profile
-                                    </td>
-                                    <td>
-                                        Name
-                                    </td>
-                                    <td>
-                                        Contact
-                                    </td>
-                                    <td>
-                                        Status
-                                    </td>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>001</td>
-                                    <td><img src="../img/4.jpg"></td>
-                                    <td>David Muhia</td>
-                                    <td>
-                                        <div class="contact">
-                                            <span class="las la-comment"></span>
-                                            <span class="las la-phone"></span>
-                                            <span class="las la-comments"></span>
+                        <div class="holder">
+                            <div class="holder-head"></div>
+                            <div class="hlder-body">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="col-md-6">
+                                           <div class="form-group">
+                                               <label>Name</label>
+                                               <input type="text" class="form-control" name="">
+                                           </div> 
                                         </div>
-                                    </td>
-                                    <td><div class="status"></div></td>
-                                </tr>
-                                <tr>
-                                    <td>002</td>
-                                    <td><img src="../img/client-2.jpg"></td>
-                                    <td>Vanessa Mdee</td>
-                                    <td>
-                                        <div class="contact">
-                                            <span class="las la-comment"></span>
-                                            <span class="las la-phone"></span>
-                                            <span class="las la-comments"></span>
+                                        <div class="col-md-6">
+                                            
                                         </div>
-                                    </td>
-                                    <td><div class="status"></div></td>
-                                </tr>
-                                <tr>
-                                    <td>003</td>
-                                    <td><img src="../img/team-1.jpg"></td>
-                                    <td>Michael cameron</td>
-                                    <td>
-                                        <div class="contact">
-                                            <span class="las la-comment"></span>
-                                            <span class="las la-phone"></span>
-                                            <span class="las la-comments"></span>
-                                        </div>
-                                    </td>
-                                    <td><div class="status"></div></td>
-                                </tr>
-                                <tr>
-                                    <td>004</td>
-                                    <td><img src="../img/team-2.jpg"></td>
-                                    <td>Julia Michael</td>
-                                    <td>
-                                        <div class="contact">
-                                            <span class="las la-comment"></span>
-                                            <span class="las la-phone"></span>
-                                            <span class="las la-comments"></span>
-                                        </div>
-                                    </td>
-                                    <td><div class="status"></div></td>
-                                </tr>
-                                <tr>
-                                    <td>005</td>
-                                    <td><img src="../img/team-3.jpg"></td>
-                                    <td>Duncan Trevor</td>
-                                    <td>
-                                        <div class="contact">
-                                            <span class="las la-comment"></span>
-                                            <span class="las la-phone"></span>
-                                            <span class="las la-comments"></span>
-                                        </div>
-                                    </td>
-                                    <td><div class="status"></div></td>
-                                </tr>
-                            </tbody>
-                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                         <?php
                     }
